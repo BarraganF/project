@@ -1,7 +1,4 @@
-.App {
-  text-align: center;
-}
-
+ 
 .App-logo {
   height: 40vmin;
   pointer-events: none;
@@ -14,7 +11,7 @@
 }
 
 .App-header {
-  background-color: #282c34;
+  background-color: #ffffff;
   min-height: 100vh;
   display: flex;
   flex-direction: column;
@@ -23,6 +20,24 @@
   font-size: calc(10px + 2vmin);
   color: white;
 }
+
+.caja-header{
+  background-color: #61dafb;
+  width: 100%;
+  position: fixed;
+  top: 0;
+  overflow: hidden;
+  
+  
+}
+
+.title{
+  padding-left: 5%;
+  display: flex;
+  text-align: center;
+
+}
+
 
 .App-link {
   color: #61dafb;
